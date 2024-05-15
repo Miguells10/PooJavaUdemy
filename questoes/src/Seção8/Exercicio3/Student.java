@@ -12,6 +12,7 @@ public class Student {
         }
         if (nota2 > 35 & nota3 > 35) {
             System.out.println("Nota não condiz");
+
         }
 
         double soma = (nota1 + nota2 + nota3);

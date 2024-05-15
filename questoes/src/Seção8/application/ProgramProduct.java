@@ -11,22 +11,29 @@ public class ProgramProduct {
             Scanner sc = new Scanner(System.in);
             Locale.setDefault(Locale.US);
 
-            Product product = new Product();
+
             System.out.println("Enter product data");
             System.out.print("Name: ");
-            product.name = sc.nextLine();
+            String name = sc.nextLine();
             System.out.print("Price: ");
-            product.price = sc.nextDouble();
+            double price = sc.nextDouble();
             System.out.print("Quantity in stock: ");
-            product.quantity = sc.nextInt();
+            int quantity = sc.nextInt();
             System.out.println();
+
+            Product product = new Product(name, price, quantity);
+
+            product.setName("XBOX");
+            System.out.println("Update name: " + product.getName());
+            product.setPrice(1200);
+            System.out.println("Update price: " + product.getPrice());
 
             System.out.print("Product data: " + product);
 
             System.out.println();
 
             System.out.println("Enter the number of products to be added in stock: ");
-            int quantity = sc.nextInt();
+           quantity = sc.nextInt();
             product.addProducts(quantity);
             System.out.println();
 
@@ -39,6 +46,11 @@ public class ProgramProduct {
             System.out.println();
 
             System.out.print("Product data: " + product);
+
+            product.setName("XBOX");
+            System.out.println("Update name: " + product.getName());
+            product.setPrice(1200);
+            System.out.println("Update price: " + product.getPrice());
 
         } catch (Exception e) {
             throw new RuntimeException(e);
