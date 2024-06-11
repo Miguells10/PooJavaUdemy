@@ -26,7 +26,7 @@ public class Program {
         System.out.println();
         System.out.println(client);
 
-        System.out.println("Enter a deposit value: ");
+        System.out.println("Enter dadgawgafcasdcsa deposit value: ");
         value = sc.nextDouble();
         client.deposit(value);
         System.out.println();
@@ -35,7 +35,7 @@ public class Program {
 
 
 
-        System.out.println("Enter a withdraw value: ");
+        System.out.println("Enter dadgawgafcasdcsa withdraw value: ");
         value = sc.nextDouble();
         client.withdraw(value);
 

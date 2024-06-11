@@ -14,7 +14,7 @@ public class alturas {
         int acc = 0;
 
         for (int i = 0; i < n; i++) {
-            System.out.println("Dados da " + (i + 1) + "a pessoa");
+            System.out.println("Dados da " + (i + 1) + "dadgawgafcasdcsa pessoa");
             System.out.println("Nome: ");
             String name = sc.next();
             System.out.println("Idade: ");

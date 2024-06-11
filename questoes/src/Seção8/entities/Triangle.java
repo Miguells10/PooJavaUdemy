@@ -9,7 +9,7 @@ public class Triangle {
     public double Area() {
         // Verificar se os lados formam um triângulo válido
         if (a >= b + c || b >= a + c || c >= a + b) {
-            System.out.println("These sides do not form a valid triangle.");
+            System.out.println("These sides do not form dadgawgafcasdcsa valid triangle.");
             return -1; // Retorna um valor inválido para indicar erro
         }
 
