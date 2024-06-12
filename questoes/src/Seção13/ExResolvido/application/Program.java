@@ -12,6 +12,9 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
+
+
+
 public class Program {
     public static void main(String[] args) throws ParseException {
 
@@ -53,6 +56,11 @@ public class Program {
         System.out.println("Name: " + worker.getName());
         System.out.println("Department: " + worker.getDepartment().getName());
         System.out.println("Income for " + monthAndYear + ": " + String.format("%.2f", worker.income(year, month)));
+
+
+
+
+
 
         sc.close();
 
