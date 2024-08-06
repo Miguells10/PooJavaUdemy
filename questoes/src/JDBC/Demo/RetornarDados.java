@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Program {
+public class RetornarDados {
     public static void main(String[] args) {
 
         Connection conn = null; // Para conectar com o banco de dados
